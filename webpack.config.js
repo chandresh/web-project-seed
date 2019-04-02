@@ -38,6 +38,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   devServer: {
-    port: 3000
+    port: 3000,
+    watchContentBase: true
   }
 };
